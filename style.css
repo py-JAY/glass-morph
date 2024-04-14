@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./purple_moon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Copy the code within glass selector to make glass morphism UI*/
+
+.glass{
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.25);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.25);
+    border-radius: 10px;
+}
+
+.main{
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
